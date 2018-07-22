@@ -1,8 +1,7 @@
 import telebot
-from const import BOT_TOKEN
 from autoposter import check_updates
-from time import sleep
-import time
+from time import sleep, time, ctime
+
 
 
 if __name__ == '__main__':
@@ -13,5 +12,5 @@ if __name__ == '__main__':
             # max_post_size - максимальная длина поста в символах
             check_updates(none_stop=True, timeout=25, max_post_size=600)
         except Exception as e:
-            print(time.ctime(time.time()), e)
+            print(ctime(time()), e)
         sleep(25)
