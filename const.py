@@ -1,6 +1,6 @@
 ﻿# GROUP_NAME - id группы в адр строке
 GROUP_NAME = ''
-# ACCESS_TOKEN - токен, полученный от приложения; scope=groups,stats,wall,offline
+# ACCESS_TOKEN - токен, полученный от приложения; scope=wall,offline
 ACCESS_TOKEN = ''
 BOT_TOKEN = ''
 # POST_COUNT - количество проверяемых постов. Из 5 пересылаются только новые.
